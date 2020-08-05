@@ -80,37 +80,4 @@
                 CONTENT_URL: 'https://cdn.jsdelivr.net/gh/dogzifun/dogzifun.github.io@v1.0.3/content.json',
             };
             window.INSIGHT_CONFIG = INSIGHT_CONFIG;
-        })(window);</script><script src="https://cdn.jsdelivr.net/gh/dogzifun/dogzifun.github.io@v1.0.3/js/insight.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.js"></script><script type="text/javascript">var pjax = new Pjax({
-            elements: "a",//代表点击链接就更新
-            selectors: [  //代表要更新的节点
-                ".section",
-                "title"
-            ],
-            cache: true,
-            cacheBust:false
-        })
-
-        function loadBusuanzi(){
-        $.getScript("//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js", function () {});
-        }
-
-        // 开始 PJAX 执行的函数
-        document.addEventListener('pjax:send', function () {
-        });
-        
-        // PJAX 完成之后执行的函数，可以和上面的重载放在一起
-        document.addEventListener('pjax:complete', function () {
-            $(".section").css({opacity:1});
-            if(true){
-                $.getScript('https://cdn.jsdelivr.net/gh/dogzifun/dogzifun.github.io@v1.0.3/js/comment-issue-data.min.js',function(){loadIssueData('rOtVIhvG3kd7QkMKe3naSU9R-gzGzoHsz','F2sNV0CkqvbPat45di3DEn3z','辣椒の酱','undefined',true);});
-            }
-            if(false){
-                loadMathJax();
-            }
-            loadMainJs(jQuery, window.moment, window.ClipboardJS, window.IcarusThemeSettings);
-            loadBackTop();
-            loadBusuanzi();
-            if(typeof loadBanner == 'function'){
-                loadBanner();
-            }
-        });</script></body></html>
+        })(window);</script><script src="https://cdn.jsdelivr.net/gh/dogzifun/dogzifun.github.io@v1.0.3/js/insight.min.js" defer></script></body></html>
